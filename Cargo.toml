@@ -11,7 +11,7 @@ keywords = ["cstr", "cstring", "no_std", "string", "c"]
 
 [dependencies]
 cty = "0.1"
-memchr = { version = "2.0", default-features = false }
+memchr = { git = "https://github.com/BurntSushi/rust-memchr.git", default-features = false }
 
 [features]
 alloc = []
